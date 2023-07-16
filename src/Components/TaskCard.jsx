@@ -4,8 +4,8 @@ import Button from './Button'
 
 const TaskCard = () => {
   return (
-    <div className="grid grid-cols-6 w-full p-3 rounded-lg shadow bg-gray-002 border-gray-002 mt-8">
-      <div className="col-span-5">
+    <div className="grid [grid-template-columns:1fr_100px] w-full p-3 rounded-lg shadow bg-gray-002 border-gray-002 mt-8">
+      <div className="col-span-1">
         <div className="">
           <h5 className="text-lg mb-2 font-semibold tracking-tight text-white">
             Check options for doorbell
